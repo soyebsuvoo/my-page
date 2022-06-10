@@ -1,0 +1,142 @@
+            .col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}  
+            
+        [class*="col-"]{
+            float: left;
+            padding: 10px;
+        }     
+            
+        /* navbar design stars here  */
+
+    .nav-logo{
+        text-align: center;
+    }
+    .nav-heading{
+        text-align: left;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-top: 15px;        
+    }   
+    .nav-menu{
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .nav-menu a{
+        border: none;
+        font-size: 1.2rem;
+        margin: 15px;
+        border-radius: 10px;
+        text-transform: none;
+    }
+    .nav-menu a:hover{
+        background-color: gray;
+    }
+
+    /* navbar design ends here  */
+
+    /* profile design starts from here  */
+
+    .top-weather{
+        width: 100px;        
+        right: 60px;
+        top: 30px;
+        transition: transform 1.5s, width 1.5s;
+    }
+    .top-weather:hover{
+        transform: rotate(360deg);
+        width: 130px;
+    }
+    .bottom-weather{
+        width: 100px;        
+        left: 50px;
+        bottom: 30px;
+        transition: transform 1.5s, width 1.5s;
+    }
+    .bottom-weather:hover{
+        transform: rotate(360deg);
+        width: 130px;
+    }
+    .profile-desc h1{
+        font-size: 3rem;
+    }
+    .profile-desc p{
+        margin-bottom: 30px;
+        width: 50%;
+        margin: 5px auto 20px auto;
+    }
+
+    /* profile design ends here  */
+
+    /* about me design starts from here */
+
+    .aboutme-desc p{
+        text-align: left;
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    .aboutme-pic{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:100px ;       
+    }
+    .aboutme-pic img{
+        width: 300px;
+        height: 300px;
+    }
+
+    /* about me design ends here  */
+
+    /* professional experience design starts here  */
+
+    .professional-experience .card-div{
+        padding: 20px;
+        background-color: gray;
+        border-radius: 15px;
+        box-shadow: 0px 2px 2px 2px black;
+        transition: 0.3s;
+        /* height: 580px; */
+        margin: 0; 
+    }
+
+    /* professional experience design ends here  */
+
+    /* contact information design starts from here  */
+
+    .contact-information .button-div{        
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50% , -50%);
+        margin-top: 200px;
+    }
+
+    .contact-form button{
+        width: 150px;
+        ;
+    }
+
+    /* contact information design ends here  */
+
+    /* footer design starts here  */
+
+
+.footer .footer-menu a{
+   font-size: 1.2rem;
+    display: inline;
+}
+
+/* footer design ends here  */
+
